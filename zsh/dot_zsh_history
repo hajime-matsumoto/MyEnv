@@ -5094,1021 +5094,191 @@ sudo vi unattend/AutoUnattend.xml
 sudo mv autorun.inf.old autorun.inf
 ls
 sudo reboot
-sudo vi unattend/AutoUnattend.xml
-sudo vi /media/grub/boot/grub/grub.cfg
-sudo vi /media/grub/menu.list
-sudo reboot
-ls
-rm dnsupdate.php\?dn=kurari.ddo.jp
-ls
-rm -rf ffpresets
-mv archives UBUNTU_INSTALL
-cd UBUNTU_INSTALL
-ls
-cd PT3
-ls
-mkdir archive
-cp -v ~/Downloads/up0*.zip archive
-ls
-mkdir recpt1
-cd recpt1
-ls
-unzip ../archive/up0319.zip
-cd pt1-http-rc4_fix
-ls
-cd ..
-ls
-unzip ../archive/up0307.zip
-unzip ../archive/up0340.zip
-ls
-cd pt1-http-rc4_fix
-patch -p1 < ../pt1-http-rc4-fix-pmt-scan.diff
-cd recpt1
-patch -p0 < ../../patch/bs.patch
-sudo apt-get install autoconf automake
-ls
-./autogen.sh
-ls
-vi pt1_dev.h
-./autogen.sh
-./configure --enable-b25
-make
-sudo make install
-recpt1
-recpt1 --b25 --strip --sid hd 101 5 test.ts
-recpt1 -b25 --strip --sid hd 101 5 test.ts
-recpt1 --help
-recpt1 --b25 --strip --sid hd 101 5 test.ts
-recpt1 --sid hd 101 5 test.ts
- sudo apt-get -y install build-essential libpcsclite-dev
- sudo apt-get  install build-essential libpcsclite-dev
-ls
-cd ..
-ls
-mkdir arib25
-cd arib25
-cd ..
-ls
-cd ..
-ls
-cd ..
-ls
-cd archive
-ls
-rm up0307\(1\).zip
-ls
-wget http://hg.honeyplanet.jp/pt1/archive/c44e16dbb0e2.zip
-ls
-ls -la c44e16dbb0e2.zip
-ls -laj c44e16dbb0e2.zip
-ls -lah c44e16dbb0e2.zip
-cd ..
-ls
-cd recpt1
-ls
-cd ..
-ls
-mkdir arib25
-cd arib25
-ls
-unzip ../archive/c44e16dbb0e2.zip
-cd pt1-c44e16dbb0e2/arib25
-make
-sudo apt-get -y install pcscd=1.5.5-3ubuntu2.1 libpcsclite1=1.5.5-3ubuntu2.1 libccid=1.3.11-1 pcsc-tools=1.4.16-1
-sudo apt-get  install pcscd=1.5.5-3ubuntu2.1 libpcsclite1=1.5.5-3ubuntu2.1 libccid=1.3.11-1 pcsc-tools=1.4.16-1
-wajig 
-wajig --help
-wajig unhold
-wajig unhold pcscd libpcsclite1
- sudo apt-get  install build-essential libpcsclite-dev
-ls
-pwd
-make
-sudo make install
-sudo vi /etc/modprobe.d/blacklist.conf
-ls
-cd ..
-ls
-cd ..
-ls
-cd ..
-ls
-cd recpt1
-ls
-cd pt1-http-rc4_fix
-ls
-cd recpt1
-make clean
-./autogen.sh
-./configure --enable-b25
-make
-./recpt1 --b25
-./recpt1 --b25 --strip 27 - -
-./recpt1 --b25 --strip 27 - /dev/null
-sudo apt-get  install pcscd=1.5.5-3ubuntu2.1 libpcsclite1=1.5.5-3ubuntu2.1 libccid=1.3.11-1 pcsc-tools=1.4.16-1
-./recpt1 --b25 --strip 27 - /dev/null
-sudo make install
-ls
-wajig hold pcscd libpcsclite1
-vi ../../../README
-wajig hold pcscd libpcsclite1
-ls
-cd
-ls
-cd UBUNTU_INSTALL
-ls
-cd PACKAGE
-ls
-vi DESKTOP.sh
-sudo apt-get install vim
-ls
-vi HAJIME_DESCTOP.sh
-ls
-sudo /bin/sh HAJIME_DESCTOP.sh
-ls
-cd ..
-ls
-cd PACKAGE/
-ls
-vi MULTIMEDIA.sh
-sudo /bin/bash MULTIMEDIA.sh
-ls
-cd ..
-ls
-cd
-ls
-crontab -e 
-tail -f /tmp/pt3
-ls
-tail -f /tmp/pt3
-ls
-ls -ls Script
-cd Script
-ls
-cd data
-ls
-cp now/res2 res/res1
-cp now/res1 res/res1
-cp now/res2 res/res2
-ls
-tail /tmp/pt3
-tail -f /tmp/pt3
-crontab -e 
-ls
-ls -la res
-tail -f /tmp/pt3
-tail -f /tmp/pt3.err
-crontab -e 
-sudo apt-get install php5 php5-cli php5-mysql mysql-server phpmyadmin
-ls
-tail -f /tmp/pt3.err
-sudo apt-get install vlc
-recpt1 --b25 --strip 27 1 1.ts
-pcsc_scan
-sudo /etc/init.d/pcscd start
-pcsc_scan
-sudo /etc/init.d/pcscd restart
-sudo vi /etc/log/pcsd
-sudo apt-get -y install pcscd=1.5.5-3ubuntu2.1 libpcsclite1=1.5.5-3ubuntu2.1 libccid=1.3.11-1 pcsc-tools=1.4.16-1
-wajig unhold pcscd libpcsclite1
-sudo apt-get -y install pcscd=1.5.5-3ubuntu2.1 libpcsclite1=1.5.5-3ubuntu2.1 libccid=1.3.11-1 pcsc-tools=1.4.16-1
- sudo apt-get  install build-essential libpcsclite-dev
-pcsc_scan
-sudo apt-get  install pcscd=1.5.5-3ubuntu2.1 libpcsclite1=1.5.5-3ubuntu2.1 libccid=1.3.11-1 pcsc-tools=1.4.16-1
-pcsc_scan
-wajig hold pcscd libpcsclite1
-sudo apt-get  install pcscd=1.5.5-3ubuntu2.1 libpcsclite1=1.5.5-3ubuntu2.1 libccid=1.3.11-1 pcsc-tools=1.4.16-1
-ls
-vi /etc/apt/sources.list
-wajig hold pcscd libpcsclite1
-sudo reboot
-pcsc_scan
-tail -f /tmp/pt3.err
-recpt1 --b25 --strip 27 1 1.ts
-ls
-cd Script/data
-ls
-vi res/res3
-sudo apt-get install chromium-browser
-chromium-browser
-cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf -
-ls
-cd ~/.dropbox-dist/
-ls
-cd ..
-~/.dropbox-dist/dropbox
-~/.dropbox-dist/dropboxd start
-~/.dropbox-dist/dropboxd &
-exit
-ls
-cd ../
-ls
-cd kurari/UBUNTU_INSTALL
-ls
-cd FFMpeg
-ls
-sudo apt-get remove ffmpeg x264 libav-tools libvpx-dev libx264-dev
-sudo apt-get update
-ls
-vi preparation.sh
-sudo apt-get -y install build-essential checkinstall git libfaac-dev libgpac-dev \\
-  libjack-jackd2-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev \\
-  librtmp-dev libsdl1.2-dev libtheora-dev libva-dev libvdpau-dev libvorbis-dev \\
-  libx11-dev libxfixes-dev pkg-config texi2html yasm zlib1g-dev
-ls
-cd x264
-make distclean
-./configure --enable-static && make
-sudo checkinstall --pkgname=x264 --pkgversion="3:$(./version.sh | \\
-  awk -F'[" ]' '/POINT/{print $4"+git"$5}')" --backup=no --deldoc=yes \\
-  --fstrans=no --default
-vi ../x264.sh
-cd ../libvpx
-ls
-make distclean
-make clean
-git pull
-./configure
-make
-tail -f /tmp/pt3.err
-vi /tmp/pt3.err
-ls
-vi ~/Script/pt3.sh
-ls
-cd ~/Script
-ls
-sudo checkinstall --pkgname=libvpx --pkgversion="1:$(date +%Y%m%d%H%M)-git" --backup=no \make
-sudo checkinstall --pkgname=libvpx --pkgversion="1:$(date +%Y%m%d%H%M)-git" --backup=no \\
-  --deldoc=yes --fstrans=no --default
-vi ../libvpx.sh
-cd ../ffmpeg
-make distclean 
-git pull
-vi sleep.sh
-chmod 755 sleep.sh
-./sleep.sh
-vi call.php
-chmod 755 call.php
-./call.php
-vi ./call.php
-./call.php
-make
-./configure --enable-gpl --enable-libfaac --enable-libmp3lame --enable-libopencore-amrnb \\
-  --enable-libopencore-amrwb --enable-librtmp --enable-libtheora --enable-libvorbis \\
-  --enable-libvpx --enable-libx264 --enable-nonfree --enable-version3 --enable-x11grab
-vi ./call.php
-ls
-./call.php
-vi ./call.php
-ls
-cd
-ls
-tail -f /tmp/pt3.err
-ls
-cd Script
-ls
-ls data
-rm data/LOCK
-tail -f /tmp/pt3.err
-vi pt3.sh
-ls
-cd ../UBUNTU_INSTALL/FFMpeg
-ls
-cd ffmpeg
-ls
-make
-sudo checkinstall --pkgname=ffmpeg --pkgversion="5:$(date +%Y%m%d%H%M)-git" --backup=no \\
-  --deldoc=yes --fstrans=no --default
-vi ffmpeg.sh
-ls
-cd ..
-ls
-vi install.sh
-rm preparation.sh x264.sh libvpx.sh
-ls
-cd ..
-ls
-ffmpeg
-ls
-cd
-ls
-cd Script
-ls
-ts2iphone.sh
-vi ts2iphone.sh
-chmod 755 ts2iphone.sh
-ls
-svn co http://svn.assembla.com/svn/legend/segmenter/
-cd segmenter
-ls
-make
-gcc -Wall -g segmenter.c -o segmenter -lavformat -lavcodec -lavutil -lbz2 -lm -lz -lfaac -lmp3lame -lx264 -lfaad
-ls
-make
-gcc -Wall -g segmenter.c -o segmenter -lavformat -lavcodec -lavutil -lbz2 -lm -lz -lfaac -lmp3lame -lx264 -lfaad
-ls
-sudo apt-get install gcc
-vi segmenter.c
-make
-vi segmenter.c
- gcc -Wall -g segmenter.c -o segmenter -lavformat -lavcodec -lavutil -lbz2 -lm -lz -lfaac -lmp3lame -lx264 -lfaad
-vi segmenter.c
-ls
-cd ..
-ls
-./ts2iphone.sh /home/kurari/videos/ãƒªãƒ«ã‚ãƒµã‚ƒ³ã¨ä¸€ç·ƒ².2012-08-01_08-01-01.ts ~/test.mp4
-ls
- ./ts2iphone.sh
-vi ./ts2iphone.sh
-vi ts2iphone.sh
-./ts2iphone.sh /home/kurari/videos/ãƒªãƒ«ã‚ãƒµã‚ƒ³ã¨ä¸€ç·ƒ².2012-08-01_08-01-01.ts ~/test.mp4
-./ts2iphone.sh /home/kurari/videos/ãƒªãƒ«ã‚ãƒµã‚ƒ³ã¨ä¸€ç·ƒ².2012-08-01_08-01-01\ \(ã‚³ãƒ£ƒ´ãƒ£¼\).ts ~/test.mp4
-vi ts2iphone.sh
-./ts2iphone.sh /home/kurari/videos/ãƒªãƒ«ã‚ãƒµã‚ƒ³ã¨ä¸€ç·ƒ².2012-08-01_08-01-01\ \(ã‚³ãƒ£ƒ´ãƒ£¼\).ts ~/test.mp4
-./ts2iphone.sh /home/kurari/videos/ãƒ¨ãƒ¤ãƒ´ã§ã‚ãƒ½ã¼.2012-08-01_08-45-01.ts
-ls
-vi ts2iphone.sh
-./ts2iphone.sh /home/kurari/videos/ãƒ¨ãƒ¤ãƒ´ã§ã‚ãƒ½ã¼.2012-08-01_08-45-01.ts /media/DATA/Dropbox/Sousuke/
-vi ts2iphone.sh
-./ts2iphone.sh /home/kurari/videos/ãƒ¨ãƒ¤ãƒ´ã§ã‚ãƒ½ã¼.2012-08-01_08-45-01.ts /media/DATA/Dropbox/Sousuke/
-ls
-rm ãƒ¨ãƒ¤ãƒ´ã§ã‚ãƒ½ã¼.2012-08-01_08-45-01.mp4
-vi ts2iphone.sh
-rm ãƒ¨ãƒ¤ãƒ´ã§ã‚ãƒ½ã¼.2012-08-01_08-45-01.mp4
-./ts2iphone.sh /home/kurari/videos/ãƒ¨ãƒ¤ãƒ´ã§ã‚ãƒ½ã¼.2012-08-01_08-45-01.ts /media/DATA/Dropbox/Sousuke/
-vi ts2iphone.sh
-./ts2iphone.sh /home/kurari/videos/ãƒ¨ãƒ¤ãƒ´ã§ã‚ãƒ½ã¼.2012-08-01_08-45-01.ts /media/DATA/Dropbox/Sousuke/
-vi ts2iphone.sh
-./ts2iphone.sh /home/kurari/videos/ãƒ¨ãƒ¤ãƒ´ã§ã‚ãƒ½ã¼.2012-08-01_08-45-01.ts /media/DATA/Dropbox/Sousuke/
-vi ts2iphone.sh
-./ts2iphone.sh /home/kurari/videos/ãƒ¨ãƒ¤ãƒ´ã§ã‚ãƒ½ã¼.2012-08-01_08-45-01.ts /media/DATA/Dropbox/Sousuke/
-vi ts2iphone.sh
-./ts2iphone.sh /home/kurari/videos/ãƒ¨ãƒ¤ãƒ´ã§ã‚ãƒ½ã¼.2012-08-01_08-45-01.ts /media/DATA/Dropbox/Sousuke/
-ls
-cd
-cd Script
-ls
-vi pt3.sh
-./ts2iphone.sh /home/kurari/videos/ãƒ¤ãªãƒ¤ãƒ¤ãªãƒ¤ã°ã.2012-08-01_08- /media/DATA/Dropbox/Sousuke/
-./ts2iphone.sh /home/kurari/videos/ãƒ¤ãªãƒ¤ãƒ¤ãªãƒ¤ã°ã.2012-08-01_08-27-01.ts /media/DATA/Dropbox/Sousuke/
-ls
-cd /var/www
-ls
-vi video.rss
-sudo vi video.rss
-ifconfig
-./ts2iphone.sh /home/kurari/videos/ãƒªãƒ«ã‚ãƒµã‚ƒ³ã¨ä¸€ç·ƒ².2012-08-01_08-01-01 /media/DATA/Dropbox/Sousuke/
-./ts2iphone.sh /home/kurari/videos/ãƒªãƒ«ã‚ãƒµã‚ƒ³ã¨ä¸€ç·ƒ².2012-08-01_08-01-01.ts /media/DATA/Dropbox/Sousuke/
-sudo apt-get install curl
-curl http://free.ddo.jp/dnsupdate.php?dn=kurari.ddo.jp&pw=deganjue
-curl "http://free.ddo.jp/dnsupdate.php?dn=kurari.ddo.jp&pw=deganjue"
-echo curl "http://free.ddo.jp/dnsupdate.php?dn=kurari.ddo.jp&pw=deganjue"
-ls
-ls ~/Script
-crontab -e
-ls
-ln -s /media/DATA/Dropbox/Sousuke videos
-sudo ln -s /media/DATA/Dropbox/Sousuke videos
-ls
-vi video.rss
-sudo vi video.rss
-php -r "echo 'a';"
-php -r "urlencode('ãƒ¨ãƒ¤ãƒ´ã§ã‚ãƒ½ã¼.2012-08-01_08-45-01.mp4');"
-php -r "echo urlencode('ãƒ¨ãƒ¤ãƒ´ã§ã‚ãƒ½ã¼.2012-08-01_08-45-01.mp4');"
-php -r "echo urlencode('ãƒ¨ãƒ¤ãƒ´ã§ã‚ãƒ½ã¼.2012-08-01_08-45-01.mp4')"
-php -r "echo urlencode('ãƒ¨ãƒ¤ãƒ´ã§ã‚ãƒ½ã¼.2012-08-01_08-45-01.mp4');"
-ls
-ls -la video
-ls -la videos
-ls -la videos/*
-sudo o+r /media/DATA/Dropbox/Sousuke/*
-sudo chown o+r /media/DATA/Dropbox/Sousuke/*
-sudo chmod o+r /media/DATA/Dropbox/Sousuke/*
-ls -la videos/*
-ls
-cd ..
-ls
-cd www
-unlink videos
-sudo unlink videos
-sudo cp  /media/DATA/Dropbox/Sousuke/* videos
-mkdir videos
-sudo mkdir videos
-sudo cp  /media/DATA/Dropbox/Sousuke/ãƒ¤ãªãƒ¤ãƒ¤ãªãƒ¤ã°ã.2012-08-01_08-27-01.mp4 videos
-sudo cp  /media/DATA/Dropbox/Sousuke/ãƒ¨ãƒ¤ãƒ´ã§ã‚ãƒ½ã¼.2012-08-01_08-45-01.mp4 videos
-ls -la video
-ls -la videos
-sudo chmod o+r /media/DATA/Dropbox/Sousuke/*
-sudo chmod o+r videos/*
-ls -la videos
-ls
-vi video.php
-sudo vi video.php
-php -f video.php
-php -f video.php > video3.rss
-sudo php -f video.php > video3.rss
-sudo php -f video.php | sudo tee video3.rss
-sudo ls
-sudo php -f video.php | sudo tee video3.rss
-ls
-vi video.rss
-ps
-vi video.php
-sudo vi video.php
-sudo cp  /media/DATA/Dropbox/Sousuke/* videos
-sudo rsync -av  /media/DATA/Dropbox/Sousuke/* videos
-sudo chmod o+r videos/*
-ssh pokela.jp
-scp ~/Work/Pokera/æƒ»´æƒ¶°ä¾ƒ½éƒ€¼/8.1/yaroo_\#5\&6.JPG pokela.jp:~
-ssh pokela.jp
-ls
-cd ..
-ps
-ls
-ls /home/kurari/videos
-ls /home/kurari/videos /var/www/videos
-ls
-vi pt3.sh
-chmod 777 /var/www/videos
-sudo chmod 777 /var/www/videos
-ps
-exit
-ls
-ls ~/
-mv ~/rec.sh .
-chmod 755 rec.sh
-ls
-vi pt3.sh
-ls
-vi data/res/res5
-tail -f /tmp/pt3.err
-vi data/res/res5
-vi pt3.sh
-vi rec.sh
-tail -f /tmp/pt3
-ls
-vi rec.sh
-vi pt3.sh
-cp data/now/res5 data/res
-tail -f /tmp/pt3
-tail -f /tmp/pt3.err
-vi rec.sh
-cp data/now/res5 data/res
-tail -f /tmp/pt3.err
-tail -f /tmp/rec.log
-vi data/res/res6
-tail -f /tmp/rec.log
-tail -f /tmp/rec.log.err
-vi rec.sh
-cp data/now/res5 data/res
-tail -f /tmp/rec.log.err
-tail -f /tmp/pt3.err
-tail -f /tmp/rec.log
-ls
-ls -la /var/www/videos
-vi rec.sh
-vi data/now/res5
-cp data/now/res5 data/res
-tail -f /tmp/rec.log
-tail -f /tmp/rec.log.err
-ls
-cd
-ls
-cd SCAN
-ls
-cd epg
-ls
-grep "ã‚½ãƒ£³ã‚°SHOW" *
-ls
-cd ..
-ls
-vi ./scan_epg.sh
-vi scan_ts_update.sh
-ls
-cd
-ls
-cd UBUNTU_INSTALL
-ls
-cd PT3
-ls
-cd archive
-cp ~/Downloads/recpt1_epg_slim.tar.gz .
-ls
-cd ..
-ls
-cd recpt1
-ls
-tar zxvf ../archive/recpt1_epg_slim.tar.gz
-vi recpt1_epg_slim/readme.txt
-ls
-cd pt1-http-rc4_fix
-cd recpt1
-patch < ../../recpt1_epg_slim/recpt1_epg_slim.patch
-make clean
-make distclean
-make
-./autogen.sh
-./configure --enable-b25
-make
-recpt1 --b25 20 - -  | cvlc -
-ls
-vi ../../recpt1_epg_slim/readme.txt
-recpt1 --b25 --sid epg 20 20.ts
-recpt1 --b25 --sid epg 20 1  20.ts
-epgdump
-cd ..
-cd ../archive
-ls
-cp '/home/kurari/Downloads/epgdumpr2.tar.gz' .
-ls
-cd ..
-ls
-mkdir egpdump
-cd egpdump
-tar zxvf ../archive/epgdumpr2.tar.gz
-cd epgdumpr2
-ls
-make
-sudo make install
-ls
-make
-ls
-ls -la epgdump
-./epgdump 
-cd ..
-ls
-cd ../
-cd ../archives
-cp '/home/kurari/Downloads/epgdumpr2-utf8.tar.gz' .
-cd ..
-ls
-cd PT3
-ls
-rm -rf egpdump
-mkdir epgdump
-cd epgdump
-mv ../../archives/epgdumpr2-utf8.tar.gz  ../archive
-tar zxvf ../archive/epgdumpr2-utf8.tar.gz
-cd epgdumpr2
-ls
-make
-sudo cp epgdump /usr/local/bin/epgdump
-epgdump
-ls
-cd ..
-cd
-ls
-cd
-ls
-cd Script
-ls
-cd ..
-cd SCAN
-ls
-recpt1 --b25 --sid epg 20 1  20.ts
-ls -la 20.ts
-ls -lah 20.ts
-vlc 20.ts
-epgdump 20.ts
-epgdump 20 20.ts
-epgdump 20 20.ts -- |
-epgdump 20 20.ts -- | more
-epgdump 20 20.ts 20.xml
-vi 20.xml
-recpt1 --b25 --sid epg 20 180  20.ts
-ls
-rm -- --
-ls
-vlc 20.ts
-epgdump 20 20.ts 20.xml
-cat 20.xml
-vi 20.xml
-epgdump
-epgdump ontvcode 20.ts a.xml
-cat a.xml
-vi a.xml
-ls
-cd ../UBUNTU_INSTALL/PT3
-ls
-cd recpt1
-ls
-cd recpt1_epg_slim
-cd ..
-ls
-cd ..
-ls
-cd recpt1/pt1-http-rc4_fix
-ls
-./recpt1 --b25 --sid epg 20 180  20.ts
-cd recpt1
-./recpt1 --b25 --sid epg 20 180  20.ts
-./configure --enable-b25
-make
-make clean
-./autogen.sh
-./configure --enable-b25 
-make
-./recpt1 --b25 --sid epg 20 180  20.ts
-recpt1 --b25 --sid epg 20 180  20.ts
-recpt1 --b25  20 1  20.ts
-epgdump 20 20.ts a.xml
-cat a.xml
-recpt1 --b25  20 10  20.ts
-epgdump 20 20.ts a.xml
-cat a.xml
-ls -la a.xml
-epgdump 30 20.ts a.xml
-ls -la a.xml
-ls -lah a.xml
-recpt1 --b25  60 10  20.ts
-recpt1 --b25  20 60 20.ts
-epgdump 30 20.ts b.xml
-ls -la a.xml b.xml
-ls
-cd
-ls
-cd SCAN
-ls
-vi scan_ts_update.sh
-chmod 755 scan_ts_update.sh
-./scan_ts_update.sh
-vi scan_ts_update.sh
-./scan_ts_update.sh
-vi scan_ts_update.sh
-./scan_ts_update.sh
-vi scan_ts_update.sh
-./scan_ts_update.sh
-vi scan_ts_update.sh
-./scan_ts_update.sh
-ls
-sudo ./scan_ts_update.sh
-recpt1 --b25 --strip --sid hd --http 8888
-ls
-cd SCAN
-ls
-vi channel_info.txt
-vi ../Script/data/res/res7
-vi ../Script/data/res/res8
-ls
-rm 20*
-ls
-ls epg
-ls
-cd epg
-ls -la *
-ls
-ls -la ../ts/*
-cd ..
-ls
-cat scan_ts_update.sh
-sudo recpt1 --b25 --strip 28 180 ts/28.ts
-sudo recpt1 --b25 --strip 27 180 ts/27.ts
-ls -la epg
-ls
-cd epg
-ls
-cd ..
-ls
-vi read_epg.php
-cat ts/20.ts | php -f read_epg.php
-cat ts/20.ts | php -f read_epg.php | nkf | more
-sudo apt-get install nkf
-cat ts/20.ts | php -f read_epg.php | nkf | more
-cat ts/20.ts | php -f read_epg.php | nkf -wLu | more
-cat ts/20.ts | php -f read_epg.php | nkf -SwLu | more
-cat ts/20.ts | php -f read_epg.php | nkf -ewLu | more
-cat ts/20.ts | php -f read_epg.php | nkf -EwLu | more
-;s
-ls
-cat epg/20.xml | php -f read_epg.php | nkf -EwLu | more
-cat epg/20.xml | php -f read_epg.php | more
-ls
-vi read_epg.php
-mysql -u root -p 
-ps
-exit
-vi /etc/mysql/my.cnf
-sudo vi /etc/mysql/my.cnf
-sudo /etc/init.d/mysql restart
-tail -f /var/log/mysql.err
-tail -f /var/log/mysql.log
-sudo vi /etc/mysql/my.cnf
-mysql -v
-sudo vi /etc/mysql/my.cnf
-sudo /etc/init.d/mysql restart
-ps
-exit
-mysql -uroot -p
-exit
-ls
-for file in epg/*\
-do\
-echo $file\
-done
-for file in epg/*\
-do\
-cat $file | php -f read_epg.php\
-done
-ps
-vi read_epg.php
-for file in epg/*\
-do\
-cat $file | php -f read_epg.php\
-done
-ls
-mkdir public_html
-sudo ln -s `pwd`/public_html /var/www/epg
-ls
-vi public_html/index.html
-vi public_html/list.php
-ls
-mkdir inc
-vi inc/header.php
-vi public_html/list.php
-ls
-vi
-for file in epg/*\
-do\
-cat $file | php -f read_epg.php\
-done
-ls
-cd
-cd SCAN
-ls
-vi public_html/list.php
-cd ..
-cd UBUNTU_INSTALL
-cd EPGREC
-ls
-tar zxvf epgrec_20111001.tar.gz
-cd epgrec
-ls
-sudo apt-get install at
-ls
-vi README.ja
-cd ..
-ls
-rm -rf epgrec
-git clone git://git.sourceforge.jp/gitroot/epgrec/epgrec.git
-ls
-cd epgrec
-ls
-vi config.php.sample config.php
-cp config.php.sample config.php
-vi config.php
-ls
-cp -a do-record.sh.pt1 do-record.sh
-grep "pt3" *
-grep "pt3" .
-vi do-record.sh
-ls
-ln -s /home/kurari/UBUNTU_INSTALL/EPGREC/epgrec /var/www/epgrec
-sudo ln -s /home/kurari/UBUNTU_INSTALL/EPGREC/epgrec /var/www/epgrec
-chmod 777 templates_c
-chmod 7775 video
-chmod 777 video
-chmod 777 thumbs
-chmod 777 settings
-chmod 777 cache
-whereis at
-whereis sleep
-whereis epgdump
-mysql -u root -p
-/home/kurari/UBUNTU_INSTALL/EPGREC/epgrec/getepg.php
-vi /home/kurari/UBUNTU_INSTALL/EPGREC/epgrec/getepg.php
-grep "pt3" .
-grep epgrec
-ps aux | grep epgrec
-ls
-vi /home/kurari/UBUNTU_INSTALL/EPGREC/epgrec/getepg.php
-ps aux | grep epgrec
-vi /home/kurari/UBUNTU_INSTALL/EPGREC/epgrec/do-record.sh
-ls /tmp/__*
-vlc /tmp/__temp.ts.gr21
-ls /tmp/__*
-vlc /tmp/__temp.ts.gr21
-vlc /tmp/__temp.ts.gr23
-ps aux | grep epgrec
-cvlc /tmp/__temp.ts.gr28 
-ps aux | grep epgrec
-
-vi /var/www/epgrec/cron.d/getepg
-vi /var/www/epgrec/getepg.php
-sudo /var/www/epgrec/getepg.php
-ps aux | grep epgrec
-vlc /tmp/__temp.ts.gr27
-ls
-grep "epgdump"
-grep "epgdump" *
-vi Settings.class.php
-grep -ir "epgdump" 
-grep -ir "epgdump"  .
-vi config.php
-ps aux | grep epgrec
-grep -r "ãƒ£ãƒ££ãƒ£³ãƒ£ƒ­ãƒ£«ãƒ£¬ã‚³ãƒ£¼ãƒ£ƒ©" .
-vi storeProgram.inc.php
-ps aux | grep epgrec
-ls -la /tmp/__temp*
-/usr/bin/php /home/kurari/UBUNTU_INSTALL/EPGREC/epgrec/storeProgram.php GR /tmp/__temp.ts.gr20 GR20
-/usr/bin/php /home/kurari/UBUNTU_INSTALL/EPGREC/epgrec/storeProgram.php GR /home/kurari/SCAN/epg/25.xml GR25
-ps aux | grep epgrec
-/usr/bin/php /home/kurari/UBUNTU_INSTALL/EPGREC/epgrec/storeProgram.php GR /home/kurari/SCAN/epg/27.xml GR27
-/usr/bin/php /home/kurari/UBUNTU_INSTALL/EPGREC/epgrec/storeProgram.php GR /home/kurari/SCAN/ts/25.ts GR25
-/usr/bin/php /home/kurari/UBUNTU_INSTALL/EPGREC/epgrec/storeProgram.php GR /home/kurari/SCAN/ts/27.ts GR27
-grep "get:çƒ¤¡åƒª¹ãªid" *
-vi DBRecord.class.php
-ls
-vi simpleReservation.php
-sudo vi /etc/at.deny
-ls
-ps aux | grep epgrec
-ps aux | grep ts
-ps aux | grep recpt1
-sudo kill -KILL 162548
-ls
-ps aux | grep recpt1
-sudo kill -kill 13472
-ps aux | grep recpt1
-vi cancelReservation.php
-ls
-ls video
-ls -laf video
-ls -lah video
-vi config.php
-df -h
-df 
-df -
-ls
-ls vi
-ls video
-vi do-record.sh
-ls
-ps aux | grep "recpt1"
-ls
-vi viewer.php
-ls
-cd
-ls
-ls UBUNTU_INSTALL/FFMpeg/ffmpeg/doc/ffserver.conf .
-cp UBUNTU_INSTALL/FFMpeg/ffmpeg/doc/ffserver.conf .
-vi ffserver.conf
-ffserver -f ffserver.conf
-ffmpeg -s 320x240 -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts http://localhost:8090/feed1.ffm
-ffmpeg  -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts http://localhost:8090/feed1.ffm
-cat ~/Script/ts2iphone.sh
-ffmpeg -s 480x270 -vcodec libx264 -b 600k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 13 -nr 50 -threads 2 -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts http://localhost:8090/feed1.ffm
-ffmpeg
-/usr/local/bin/ffmpeg
-/usr/local/bin/ffmpeg -s 480x270 -vcodec libx264 -b 600k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 13 -nr 50 -threads 2 -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts http://localhost:8090/feed1.ffm
-/usr/local/bin/ffmpeg -s 480x270  -b 600k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 13 -nr 50 -threads 2 -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts http://localhost:8090/feed1.ffm
-ls
-ffmpeg -v
-ffmpeg -v-version
-ls
-./Script/ts2iphone.sh videos/ãƒ£ƒ¦ã‚¹ãƒ£ƒ¨.2012-08-01_11-15-01.ts .
-ls
-ffmpeg -i "$input" -s 480x270 -vcodec libx264 -b 600k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 13 -nr 50 -threads 2 "$outfile"
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 480x270 -vcodec libx264 -b 600k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 13 -nr 50 -threads 2 http://localhost:8090/fead1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 480x270 -vcodec libx264 -b 600k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 13 -nr 50 -threads 2 http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 480x270 -vcodec libx264 -b 600k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 13 -nr 50  http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 480x270 -vcodec libx264 -b 300k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 13 -nr 50  http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 480x270 -vcodec libx264 -b 100k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 13 -nr 50  http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 480x270 -vcodec libx264 -b 100k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 1 -nr 50  http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 480x270 -vcodec libx264 -b 100k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0  -nr 50  http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 480x270 -vcodec libx264 -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0  -nr 50  http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 480x270   http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts  http://localhost:8090/feed1.ffm
-ffmpeg -i /var/www/videos/ãƒ¨ãƒ¤ãƒ´ã§ã‚ãƒ½ã¼.2012-08-01_08-45-01.mp4  http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 480x270 -vcodec libx264 -b 300k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 13 -nr 50  http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 480x270 -vcodec libx264  -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 13 -nr 50  http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 480x270 -vcodec libx264  -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0  -nr 50  http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 480x270 -vcodec libx264  -acodec libfaac -acã€€  http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 480x270 -vcodec libx264 -b 300k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 13 -nr 50  http://localhost:8090/feed1.ffm
-vi ffserver.conf
-ffserver -f ffserver.conf
-vi ffserver.conf
-ls
-cp UBUNTU_INSTALL/FFMpeg/ffmpeg/doc/ffserver.conf .
-vi ffserver.conf
-ffserver -f ffserver.conf
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 352x240 -vcodec libx264 -b 200k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 13 -nr 50  http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 352x240 -vcodec libx264 -b 180k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 13 -nr 50  http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 352x240 -vcodec libx264 -b 100k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 13 -nr 50  http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 352x240 -vcodec libx264 -b 100k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0 -level 1 -nr 50  http://localhost:8090/feed1.ffm
-ffmpeg -i ~/videos/æ¥½ãƒ·ãƒ¤ãƒ£ƒ€ãƒ£¼ãƒ£Ÿãƒ£³ä¸€å®¶åƒ¦ƒ²éƒ¹ºæƒ·¥è¨ƒ¸.2012-08-01_18-30-01.ts -s 352x240 -vcodec libx264 -b 100k -acodec libfaac -ac 2 -ar 48000 -ab 128k -coder 0  -nr 50  http://localhost:8090/feed1.ffm
-ps aux | grep "recpt1"
-ps aux | grep "ffmpeg"
-ps aux | grep "recpt1"
-ps aux | grep "ffmpeg"
-ps aux | grep "recpt1"
-recpt1 --b25 --strip --sid sd --http 8888
-ls
-vi /var/www/local.m3u
-vi /var/www/m3u.php
-mv /tmp/aho /var/www/m3u.php
-sudo mv /tmp/aho /var/www/m3u.php
-sudo vi /var/www/m3u.php
-ps aux | grep "recpt1"
-cd /var/www/
-ls
-sudo vi test.m3u8
-sudo vi .htaccess
-sudo vi /etc/apache2/envvars
-cd /etc/apache2
-vi /etc/apache2/sites-available/default
-sudo vi /etc/apache2/sites-available/default
-sudo /etc/init.d/apache2 restart
-ls
-cd
-cd /var/www
-ls
-vi a.html
-sudo mv /tmp/aho a.html
-ps aux | grep "recpt1"
-ps aux | grep "ffmpeg"
-ls -lah /tmp/tmp20836-outfile..mp4
-ps aux | grep "ffmpeg"
-sudo shutdown -h now
-: 1343825507:0;recpt1 --b25 --strip --sid sd --http 8888
-: 1343826812:0;ls
-: 1343826848:0;sudo rsync -avz /media/53f49a0d-8ee0-44ab-828b-0eec20c9d841/var/lib/mysql/ /var/lib/mysql/
-: 1343826884:0;ls
-: 1343826890:0;cd /var/lib/mysql
-: 1343826892:0;ls -ls
-: 1343826895:0;cd /var/lib
-: 1343826899:0;sudo su
-: 1343827759:0;ls
-: 1343827771:0;shotwell -d ~/mydata/shotwell-hajime
-: 1343829902:0;ls
-: 1343829904:0;cd
-: 1343829905:0;ls
-: 1343829907:0;df-h
-: 1343829909:0;df -h
-: 1343830114:0;ls
-: 1343830115:0;vi
-: 1343830698:0;cd UBUNTU_INSTALL/
-: 1343830698:0;ls
-: 1343830703:0;top
-: 1343830719:0;ls
-: 1343830723:0;mkdir EC2
-: 1343830725:0;cd EC2
-: 1343830726:0;ls
-: 1343830738:0;vi ec2.source.list
-: 1343830785:0;ln -s /home/kurari/UBUNTU_INSTALL/EC2/ec2.source.list /etc/apt/sources.list.d/
-: 1343830787:0;sudo ln -s /home/kurari/UBUNTU_INSTALL/EC2/ec2.source.list /etc/apt/sources.list.d/
-: 1343830796:0;sudo apt-get update
-: 1343830799:0;ls
-: 1343830803:0;sudo vi install.sh
-: 1343830856:0;sudo /bin/bash install.sh
-: 1343831078:0;ec2-run-instances ami-347dcf35 --instance-type t1.micro --region ap-northeast-1 --key ${EC2_KEYPAIR_AP_NORTHEAST_1}
-: 1343831084:0;cat ~/.s3cfg 
-: 1343831106:0;ec2-run-instances ami-347dcf35 --instance-type t1.micro --region ap-northeast-1 --key 3yJd2LqG9niZIe1ISkzhtcC0/eZP9mX6Ed58Nxgp
-: 1343831139:0;ec2-run-instances ami-347dcf35 --instance-type t1.micro --region ap-northeast-1 -K 3yJd2LqG9niZIe1ISkzhtcC0/eZP9mX6Ed58Nxgp
-: 1343831152:0;cat ~/.s3cfg
-: 1343831168:0;ec2-run-instances ami-347dcf35 --instance-type t1.micro --region ap-northeast-1 -K 3yJd2LqG9niZIe1ISkzhtcC0/eZP9mX6Ed58Nxgp --key AKIAIBCZ6E7AEL7DGRVQ
-: 1343831401:0;ec2-run-instances ami-347dcf35 --instance-type t1.micro --region ap-northeast-1 
-: 1343831545:0;ec2-run-instances ami-347dcf35 --instance-type t1.micro --region ap-northeast-1  -K  3yJd2LqG9niZIe1ISkzhtcC0/eZP9mX6Ed58Nxgp --key AKIAIBCZ6E7AEL7DGRVQ
-: 1343831559:0;ec2-run-instances ami-347dcf35 --instance-type t1.micro --region ap-northeast-1  -K  3yJd2LqG9niZIe1ISkzhtcC0/eZP9mX6Ed58Nxgp --key AKIAIBCZ6E7AEL7DGRVQ --cert cert-3J7AMGRS5XXGT7KE5B72IIK6OM2SHTXX.pem
-: 1343832046:0;ec2-run-instances ami-347dcf35 --instance-type t1.micro --region ap-northeast-1  -K Key-Pare/pk-3D7MOJOD2NI6BBF4D7773YMVFR3TFLNF.pem
-: 1343832053:0;ec2-run-instances ami-347dcf35 --instance-type t1.micro --region ap-northeast-1  -K Key-Pare/pk-3D7MOJOD2NI6BBF4D7773YMVFR3TFLNF.pem -C Key-Pare/cert-3J7AMGRS5XXGT7KE5B72IIK6OM2SHTXX.pem
-: 1343832118:0;ec2-run-instance --help
-: 1343832126:0;ec2-run-instances --help
-: 1343832204:0;ec2-run-instances ami-347dcf35 --instance-type t1.micro --region ap-northeast-1  -K Key-Pare/pk-3D7MOJOD2NI6BBF4D7773YMVFR3TFLNF.pem -C Key-Pare/cert-3J7AMGRS5XXGT7KE5B72IIK6OM2SHTXX.pem -g VistyDevel --key AvapServer
-: 1343832233:0;ec2
-: 1343832463:0;ls
-: 1343832464:0;cd ..
-: 1343832465:0;ls
-: 1343832475:0;ssh -i .ssh/AvapServer.pem ec2-175-41-223-176.ap-northeast-1.compute.amazonaws.com
-: 1343832484:0;ssh -i .ssh/AvapServer.pem ubuntu@ec2-175-41-223-176.ap-northeast-1.compute.amazonaws.com
-: 1343832646:0;ls
-: 1343832664:0;cat .ssh/authorized_keys
-: 1343832726:0;ssh-keygen -y -f ~/.ssh/HajimeMATSUMOTO_rsa
-: 1343832759:0;ssh ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD15/KENovrfH0pdIJI7VTwmxwB9YPpcSG4MTzDZDb04IFe6GF/WBgqum21NyLmMnr9X9SwcuConsBFwvZk+gAt1ZRDCNVasD/n6Gpif8zTc397Fa2N2EGRYglerAVDuAq6y7h9zp8ca/1FZP2bEn0Oh5HEKA780yDinBOjuzkrwbBdV4RkH2wx0kj4nhERFmn9UXGsxwUU0iUnNB1w7b3zRGMf2Xr7f4+NO64hgjBK1oRlAhXyiDuMKJwsVyauO/4IXXXxtfF1k+c4xmH+QNqNS29sA3JRGSDASkYk/4SAnTHva7P9+mTZM/QUCJ4ox6YgaE29fVuOtSN7NpctM9SZ
-: 1343832779:0;ssh ec2-175-41-223-176.ap-northeast-1.compute.amazonaws.com
-: 1343832807:0;ls -la .ssh
-: 1343832809:0;/ls -la .ssh
-: 1343832813:0;ls -la .ssh/
-: 1343832867:0;ssh ec2-175-41-223-176.ap-northeast-1.compute.amazonaws.com
-: 1343832873:0;ssh -ddd ec2-175-41-223-176.ap-northeast-1.compute.amazonaws.com
-: 1343832877:0;ssh -vvv ec2-175-41-223-176.ap-northeast-1.compute.amazonaws.com
-: 1343832911:0;ssh -i ~/.ssh/HajimeMATSUMOTO_rsa ec2-175-41-223-176.ap-northeast-1.compute.amazonaws.com
-: 1343832998:0;ls
-: 1343832999:0;cd
-: 1343833000:0;ls
-: 1343833009:0;ls -la
-: 1343833154:0;ls
-: 1343833169:0;git clone https://github.com/hajime-matsumoto/MyEnv.git
-: 1343833175:0;ls
-: 1343833176:0;cd MyEnv
-: 1343833177:0;ls
-: 1343833178:0;vi README.md
-: 1343833231:0;ls
-: 1343833237:0;mkdir zsh
-: 1343833238:0;ls
-: 1343833259:0;cp ~/.zshrc zsh/dot_zshrc
-: 1343833275:0;cp ~/.zsh_history zsh/dot_zsh_history
-: 1343834878:0;./.dropbox-dist/dropbox --help
-: 1343834929:0;ls
-: 1343834936:0;cd MyEnv
-: 1343834936:0;ls
-: 1343834947:0;git add zsh package_install.sh dropbox
+: 1343447554:0;sudo vi unattend/AutoUnattend.xml
+: 1343447558:0;sudo vi /media/grub/boot/grub/grub.cfg
+: 1343447602:0;sudo vi /media/grub/menu.list
+: 1343447676:0;sudo reboot
+: 1343773214:0;ls
+: 1343773217:0;rm dnsupdate.php\?dn=kurari.ddo.jp
+: 1343773218:0;ls
+: 1343773224:0;rm -rf ffpresets
+: 1343773230:0;mv archives UBUNTU_INSTALL
+: 1343773232:0;cd UBUNTU_INSTALL
+: 1343773232:0;ls
+: 1343773236:0;cd PT3
+: 1343773236:0;ls
+: 1343773274:0;mkdir archive
+: 1343773298:0;cp -v ~/Downloads/up0*.zip archive
+: 1343773301:0;ls
+: 1343773308:0;mkdir recpt1
+: 1343773310:0;cd recpt1
+: 1343773310:0;ls
+: 1343773319:0;unzip ../archive/up0319.zip
+: 1343773330:0;cd pt1-http-rc4_fix
+: 1343773331:0;ls
+: 1343773333:0;cd ..
+: 1343773333:0;ls
+: 1343773342:0;unzip ../archive/up0307.zip
+: 1343773352:0;unzip ../archive/up0340.zip
+: 1343773352:0;ls
+: 1343773358:0;cd pt1-http-rc4_fix
+: 1343773376:0;patch -p1 < ../pt1-http-rc4-fix-pmt-scan.diff
+: 1343773386:0;cd recpt1
+: 1343773396:0;patch -p0 < ../../patch/bs.patch
+: 1343773408:0;sudo apt-get install autoconf automake
+: 1343773426:0;ls
+: 1343773433:0;./autogen.sh
+: 1343773446:0;ls
+: 1343773452:0;vi pt1_dev.h
+: 1343773480:0;./autogen.sh
+: 1343773497:0;./configure --enable-b25
+: 1343773504:0;make
+: 1343773510:0;sudo make install
+: 1343773519:0;recpt1
+: 1343773542:0;recpt1 --b25 --strip --sid hd 101 5 test.ts
+: 1343773555:0;recpt1 -b25 --strip --sid hd 101 5 test.ts
+: 1343773559:0;recpt1 --help
+: 1343773582:0;recpt1 --b25 --strip --sid hd 101 5 test.ts
+: 1343773588:0;recpt1 --sid hd 101 5 test.ts
+: 1343773651:0; sudo apt-get -y install build-essential libpcsclite-dev
+: 1343773656:0; sudo apt-get  install build-essential libpcsclite-dev
+: 1343773662:0;ls
+: 1343773664:0;cd ..
+: 1343773665:0;ls
+: 1343773671:0;mkdir arib25
+: 1343773672:0;cd arib25
+: 1343773684:0;cd ..
+: 1343773684:0;ls
+: 1343773686:0;cd ..
+: 1343773687:0;ls
+: 1343773689:0;cd ..
+: 1343773690:0;ls
+: 1343773692:0;cd archive
+: 1343773692:0;ls
+: 1343773700:0;rm up0307\(1\).zip
+: 1343773701:0;ls
+: 1343773720:0;wget http://hg.honeyplanet.jp/pt1/archive/c44e16dbb0e2.zip
+: 1343773724:0;ls
+: 1343773728:0;ls -la c44e16dbb0e2.zip
+: 1343773732:0;ls -laj c44e16dbb0e2.zip
+: 1343773735:0;ls -lah c44e16dbb0e2.zip
+: 1343773737:0;cd ..
+: 1343773738:0;ls
+: 1343773742:0;cd recpt1
+: 1343773743:0;ls
+: 1343773746:0;cd ..
+: 1343773746:0;ls
+: 1343773751:0;mkdir arib25
+: 1343773752:0;cd arib25
+: 1343773753:0;ls
+: 1343773761:0;unzip ../archive/c44e16dbb0e2.zip
+: 1343773768:0;cd pt1-c44e16dbb0e2/arib25
+: 1343773770:0;make
+: 1343773806:0;sudo apt-get -y install pcscd=1.5.5-3ubuntu2.1 libpcsclite1=1.5.5-3ubuntu2.1 libccid=1.3.11-1 pcsc-tools=1.4.16-1
+: 1343773810:0;sudo apt-get  install pcscd=1.5.5-3ubuntu2.1 libpcsclite1=1.5.5-3ubuntu2.1 libccid=1.3.11-1 pcsc-tools=1.4.16-1
+: 1343773843:0;wajig 
+: 1343773847:0;wajig --help
+: 1343773881:0;wajig unhold
+: 1343773886:0;wajig unhold pcscd libpcsclite1
+: 1343773898:0; sudo apt-get  install build-essential libpcsclite-dev
+: 1343773921:0;ls
+: 1343773922:0;pwd
+: 1343773924:0;make
+: 1343773931:0;sudo make install
+: 1343773938:0;sudo vi /etc/modprobe.d/blacklist.conf
+: 1343773996:0;ls
+: 1343773998:0;cd ..
+: 1343773998:0;ls
+: 1343774000:0;cd ..
+: 1343774001:0;ls
+: 1343774002:0;cd ..
+: 1343774002:0;ls
+: 1343774005:0;cd recpt1
+: 1343774005:0;ls
+: 1343774011:0;cd pt1-http-rc4_fix
+: 1343774013:0;ls
+: 1343774016:0;cd recpt1
+: 1343774020:0;make clean
+: 1343774028:0;./autogen.sh
+: 1343774038:0;./configure --enable-b25
+: 1343774041:0;make
+: 1343774054:0;./recpt1 --b25
+: 1343774063:0;./recpt1 --b25 --strip 27 - -
+: 1343774075:0;./recpt1 --b25 --strip 27 - /dev/null
+: 1343774084:0;sudo apt-get  install pcscd=1.5.5-3ubuntu2.1 libpcsclite1=1.5.5-3ubuntu2.1 libccid=1.3.11-1 pcsc-tools=1.4.16-1
+: 1343774098:0;./recpt1 --b25 --strip 27 - /dev/null
+: 1343774110:0;sudo make install
+: 1343774111:0;ls
+: 1343774118:0;wajig hold pcscd libpcsclite1
+: 1343774143:0;vi ../../../README
+: 1343774212:0;wajig hold pcscd libpcsclite1
+: 1343774222:0;ls
+: 1343774223:0;cd
+: 1343774223:0;ls
+: 1343774225:0;cd UBUNTU_INSTALL
+: 1343774226:0;ls
+: 1343774230:0;cd PACKAGE
+: 1343774231:0;ls
+: 1343774239:0;vi DESKTOP.sh
+: 1343774248:0;sudo apt-get install vim
+: 1343774262:0;ls
+: 1343774273:0;vi HAJIME_DESCTOP.sh
+: 1343774321:0;ls
+: 1343774328:0;sudo /bin/sh HAJIME_DESCTOP.sh
+: 1343774370:0;ls
+: 1343774373:0;cd ..
+: 1343774374:0;ls
+: 1343774396:0;cd PACKAGE/
+: 1343774396:0;ls
+: 1343774403:0;vi MULTIMEDIA.sh
+: 1343774427:0;sudo /bin/bash MULTIMEDIA.sh
+: 1343774697:0;ls
+: 1343774700:0;cd ..
+: 1343774701:0;ls
+: 1343774702:0;cd
+: 1343774702:0;ls
+: 1343774718:0;crontab -e 
+: 1343774769:0;tail -f /tmp/pt3
+: 1343774773:0;ls
+: 1343774776:0;tail -f /tmp/pt3
+: 1343774780:0;ls
+: 1343774787:0;ls -ls Script
+: 1343774801:0;cd Script
+: 1343774801:0;ls
+: 1343774802:0;cd data
+: 1343774803:0;ls
+: 1343774811:0;cp now/res2 res/res1
+: 1343774817:0;cp now/res1 res/res1
+: 1343774822:0;cp now/res2 res/res2
+: 1343774823:0;ls
+: 1343774829:0;tail /tmp/pt3
+: 1343774833:0;tail -f /tmp/pt3
+: 1343774838:0;crontab -e 
+: 1343774855:0;ls
+: 1343774880:0;ls -la res
+: 1343774885:0;tail -f /tmp/pt3
+: 1343774888:0;tail -f /tmp/pt3.err
+: 1343774916:0;crontab -e 
+: 1343774963:0;sudo apt-get install php5 php5-cli php5-mysql mysql-server phpmyadmin
+: 1343775102:0;ls
+: 1343775110:0;tail -f /tmp/pt3.err
+: 1343775137:0;sudo apt-get install vlc
+: 1343775170:0;recpt1 --b25 --strip 27 1 1.ts
+: 1343775209:0;pcsc_scan
+: 1343775224:0;sudo /etc/init.d/pcscd start
+: 1343775229:0;pcsc_scan
+: 1343775234:0;sudo /etc/init.d/pcscd restart
+: 1343775245:0;sudo vi /etc/log/pcsd
+: 1343775250:0;sudo apt-get -y install pcscd=1.5.5-3ubuntu2.1 libpcsclite1=1.5.5-3ubuntu2.1 libccid=1.3.11-1 pcsc-tools=1.4.16-1
+: 1343775257:0;wajig unhold pcscd libpcsclite1
+: 1343775260:0;sudo apt-get -y install pcscd=1.5.5-3ubuntu2.1 libpcsclite1=1.5.5-3ubuntu2.1 libccid=1.3.11-1 pcsc-tools=1.4.16-1
+: 1343775280:0; sudo apt-get  install build-essential libpcsclite-dev
+: 1343775294:0;pcsc_scan
+: 1343775302:0;sudo apt-get  install pcscd=1.5.5-3ubuntu2.1 libpcsclite1=1.5.5-3ubuntu2.1 libccid=1.3.11-1 pcsc-tools=1.4.16-1
+: 1343775316:0;pcsc_scan
+: 1343775332:0;wajig hold pcscd libpcsclite1
+: 1343775348:0;sudo apt-get  install pcscd=1.5.5-3ubuntu2.1 libpcsclite1=1.5.5-3ubuntu2.1 libccid=1.3.11-1 pcsc-tools=1.4.16-1
+: 1343775351:0;ls
+: 1343775359:0;vi /etc/apt/sources.list
+: 1343775508:0;wajig hold pcscd libpcsclite1
+: 1343775518:0;sudo reboot

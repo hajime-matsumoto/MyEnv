@@ -1,1 +1,131 @@
-/home/kurari/UBUNTU_INSTALL/DOT_FILES/.vimrc
+" vi: ts=4
+"--------------------------------------------------------------------------
+" VIM設定ファイル
+" 
+" @date 2011.12.19
+" @author Hajime MATSUMOTO <mail@hazime.org>
+"--------------------------------------------------------------------------
+"set nocompatible
+set laststatus=2
+"set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
+
+syntax on
+filetype on
+filetype indent on
+filetype plugin on
+
+
+"--------------------------------------------------------------------------
+" {{{ VIMの基本的な挙動
+"--------------------------------------------------------------------------
+set nocompatible                " vi否互換モード
+set fileformats=unix,dos,mac    " 改行コードの自動認識
+set backspace=indent,eol,start  " バックスペースで削除できるものを増やす
+"set autochdir                   " 自動的にディレクトリを変更
+"set fdm=marker                  " 折りたたむ
+set tw=0                        " 勝手に改行禁止
+set backup                      " バックアップをとる
+set writebackup                 " 上書きの前にバックアップをとる
+set backupdir=~/.backup         " バックアップディレクトリ
+set directory=~/.swap           " スワップディレクトリ
+set mouse=a
+set ttymouse=xterm2
+" }}}
+
+
+"--------------------------------------------------------------------------
+" {{{ 検索
+"--------------------------------------------------------------------------
+set history=100
+set ignorecase
+set smartcase
+set wrapscan
+set noincsearch
+" }}}
+
+"--------------------------------------------------------------------------
+" {{{ 表示関係
+"--------------------------------------------------------------------------
+set title
+set ruler
+set showmatch showmode showcmd
+"set list
+"set listchars=tab:»-,trail:_,eol:↲,extends:»,precedes:«,nbsp:%
+" 全角スペースの表示
+"highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
+"highlight SpecialKey term=underline ctermfg=darkgray guifg=darkgray
+"match ZenkakuSpace /　/
+set statusline+=\%{hostname()}@%<%F%r%y[%{&fileformat}]
+set statusline+=[%{has('multi_byte')&&\&fileencoding!=''?&fileencoding:&encoding}]
+set statusline+=%=[ASCII=%B,HEX=%c][L=%l/%L][%p%%][%p%%]
+" }}}
+
+"--------------------------------------------------------------------------
+" {{{  インデントの設定
+"--------------------------------------------------------------------------
+set noautoindent   " オートインデントを無効にする
+set tabstop=2      " タブが対応する空白の数
+set softtabstop=2  " タブやバックスペースの使用等の編集操作をするときに、タブが対応する空白の数
+set shiftwidth=2   " インデントの各段階に使われる空白の数
+set noexpandtab    " タブを挿入するとき、代わりに空白を使わない
+set showcmd        " タイプ中のコマンドを表示する
+set laststatus=2   " ステータスラインを常に表示
+" }}}
+
+
+
+" Vundle
+"--------------------------------------------------------------------------
+set rtp+=~/.vim/vundle/
+call vundle#rc()
+colorscheme ron
+
+Bundle 'thinca/vim-ref.git'
+Bundle 'tsaleh/vim-align'
+Bundle 'Source-Explorer-srcexpl.vim'
+Bundle 'trinity.vim'
+Bundle 'The-NERD-tree'
+Bundle 'taglist.vim'
+Bundle 'snipMate'
+
+" Git Vim
+"--------------------------------------------------------------------------
+Bundle 'tpope/vim-fugitive'
+
+" for Fugitive {{{
+nnoremap <Space>gd :<C-u>Gdiff<Enter>
+nnoremap <Space>gs :<C-u>Gstatus<Enter>
+nnoremap <Space>gl :<C-u>Glog<Enter>
+nnoremap <Space>ga :<C-u>Gwrite<Enter>
+nnoremap <Space>gc :<C-u>Gcommit<Enter>
+nnoremap <Space>gC :<C-u>Git commit --amend<Enter>
+nnoremap <Space>gb :<C-u>Gblame<Enter>
+" }}}
+
+" 日本語設定
+"--------------------------------------------------------------------------
+set encoding=utf8
+set fileencodings=utf-8,cp932,euc-jp,iso-2022-jp,default,latin
+set ambiwidth=double
+
+" ローカルな設定を読み込む
+"--------------------------------------------------------------------------
+if filereadable("vimrc")
+		source vimrc
+endif
+
+"------------------------------------------------------------------------------
+" Latex用の設定 {{{ 
+"------------------------------------------------------------------------------
+au filetype tex :set fileencoding=euc-jp
+au filetype plaintex :set fileencoding=euc-jp
+
+nnoremap <silent> tcp :w!<CR>:! platex % -interaction=nonstopmode<CR>:! platex % -interaction=nonstopmode<CR>:! dvipdfmx %<.dvi<CR>:!evince %<.pdf<CR>:! rm *.log *.toc *.dvi *.pdf *.aux<CR>
+nnoremap <silent> tcd :w!<CR>:! platex % -interaction=nonstopmode<CR>:! platex % -interaction=nonstopmode<CR>:! xdvi %<.dvidf<CR>:! rm *.log *.toc *.dvi *.pdf *.aux<CR>
+" }}}
+"
+"
+"
+"
+"
+let NERDTreeShowHidden=1
