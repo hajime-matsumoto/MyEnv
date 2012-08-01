@@ -76,7 +76,7 @@ set laststatus=2   " ステータスラインを常に表示
 
 " Vundle
 "--------------------------------------------------------------------------
-set rtp+=~/.vim/vundle/
+set rtp+=~/.vim/vundle.git/
 call vundle#rc()
 colorscheme ron
 
