@@ -1,0 +1,71 @@
+#
+# 環境定義
+#
+
+# 環境
+#-----------------------------
+EDITOR=vi
+setopt auto_cd    # ディレクトリ名だけでCDさせる
+setopt auto_pushd # CD時にpushdする
+
+# プロンプト
+#-----------------------------
+autoload colors
+setopt prompt_subst
+colors
+#RPROMPT="[%~]"
+#PROMPT="%{${fg[red]}%}%.%%%{${reset_color}%} "
+#PROMPT2="%{${fg[red]}%}%_%%%{${reset_color}%} "
+#SPROMPT="%{${fg[red]}%}%r is correct? [n,y,a,e]:%{${reset_color}%} "
+#[ -n "${REMOTEHOST}${SSH_CONNECTION}" ] && PROMPT="%{${fg[white]}%}${HOST%%.*} ${PROMPT}"
+#PROMPT='${WINDOW:+"[$WINDOW]"}%{$fg[cyan]%}%#%{$reset_color%} '
+#RPROMPT='%{$fg[white]%}%~%{$fg[cyan]%}:%{$fg[white]%}%!%{$reset_color%}'
+#PROMPT='%{[$[32+$RANDOM % 5]m%}%U%B$HOST'"{`whoami`}%b%%%{[m%}%u "
+#RPROMPT='%{[33m%}[%~]%{[m%}'
+
+PROMPT=""
+PROMPT=$PROMPT"%{$fg[white]%}${HOST%%.*}%{$reset_color%}" # ホスト名
+PROMPT=$PROMPT" "
+PROMPT=$PROMPT"%{$fg[cyan]%}`whoami`%{$reset_color%}" # シアンでユーザ名
+PROMPT=$PROMPT'%{[$[32+$RANDOM % 5]m%}$ '"%{[m%}" # ランダムカラー
+
+RPROMPT='[%~%{$fg[cyan]%}:%{$fg[reset_color]%}%!%{$reset_color%}]'
+
+# 履歴
+#-----------------------------
+HISTFILE=~/.zsh_history
+HISTSIZE=6000000
+SAVEHIST=6000000
+setopt hist_ignore_dups
+setopt share_history
+autoload history-search-end
+zle -N history-beginning-search-backward-end history-search-end
+zle -N history-beginning-search-forward-end history-search-end
+
+# キーバインド
+#-----------------------------
+bindkey -v
+setopt nolistbeep
+bindkey '^R' history-incremental-search-backward
+bindkey "^P" history-beginning-search-backward-end
+bindkey "^N" history-beginning-search-forward-end
+
+# エイリアス
+#-----------------------------
+alias where="command -v"
+alias j="jobs -l"
+
+alias la="ls -a"
+alias lf="ls -F"
+alias ll="ls -l"
+
+alias du="du -h"
+alias df="df -h"
+
+alias su="su -l"
+
+# 補完 
+#-----------------------------
+autoload -U compinit
+compinit
+setopt correct
