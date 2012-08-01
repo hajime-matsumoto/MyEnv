@@ -1,0 +1,14 @@
+vbell off
+startup_message off
+autodetach on 
+defscrollback 1024
+hardstatus alwayslastline "%{= gk}[%m/%d %02c:%s] %{gW} %-w%{= wk}%n %t%{-}%+w %=%{gk}$USER@$HOSTNAME[$LANG] (%l) "
+
+escape ^jj
+
+defmonitor on
+defbce "on" # 背景色消去
+shelltitle '% |zsh' # シェルタイトル
+term xterm-256color # ターミナル
+
+altscreen on
