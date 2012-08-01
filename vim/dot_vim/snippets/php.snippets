@@ -1,0 +1,26 @@
+snippet dump
+	echo "<pre>";
+	var_dump(${1:$this});
+	echo "</pre>";
+snippet module
+	$this->getModule(${1:false})->getController(${2:default});
+snippet fileinfo
+	/**
+	 * Seaf PROJECT
+	 * 
+	 */
+snippet class
+	/**
+	 * ${1}
+	 */
+	class ${2} 
+	{
+		public function __construct( )
+		{
+		}
+	}
+snippet function
+	${1:public} function ${2} (${3})
+	{
+		${4}
+	}
