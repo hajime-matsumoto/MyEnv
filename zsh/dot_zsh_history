@@ -6107,3 +6107,8 @@ sudo shutdown -h now
 : 1343833238:0;ls
 : 1343833259:0;cp ~/.zshrc zsh/dot_zshrc
 : 1343833275:0;cp ~/.zsh_history zsh/dot_zsh_history
+: 1343834878:0;./.dropbox-dist/dropbox --help
+: 1343834929:0;ls
+: 1343834936:0;cd MyEnv
+: 1343834936:0;ls
+: 1343834947:0;git add zsh package_install.sh dropbox
